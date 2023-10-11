@@ -26,6 +26,15 @@
     margin-left: 30px;
 }
 
+.section-tittle {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+
 /*------nav styles------*/
 
 nav {
@@ -63,6 +72,9 @@ nav li>a {
 
 .header {
     background: #FFF8F3;
+    background: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
 }
 
 .banner-greetings {
@@ -91,16 +103,46 @@ nav li>a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url(../images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
 }
 
 .banner-profile-pic {
     width: 580px;
-    height: 675px;
-}
-.banner-content{
-    max-width: 500px;
 }
 
+/*------main section styles------*/
+
+section {
+    margin: 150px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 150px 200px;
+
+}
+
+.section-description {
+    color: #757575;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-tittle {
+    color: #757575;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0;
+    font-weight: 100px;
+}
+
+.info-description {
+    color: #474747;
+    font-size: 18px;
+    margin-top: 2px;
+}
