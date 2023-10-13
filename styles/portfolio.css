@@ -32,6 +32,7 @@
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 0;
+    align-items: center;
 }
 
 
@@ -111,11 +112,12 @@ nav li>a {
 
 /*------main section styles------*/
 
-section {
+.About {
     margin: 150px;
     border-radius: 10px;
     background: #FFF8F3;
     padding: 150px 200px;
+    border-radius: 10px;
 
 }
 
@@ -130,7 +132,7 @@ section {
 
 .info-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .info-tittle {
@@ -145,4 +147,76 @@ section {
     color: #474747;
     font-size: 18px;
     margin-top: 2px;
+}
+
+
+.skills {
+    margin: 150px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-section-description {
+    color: #757575;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    margin: 15px 150px 30px 150px;
+}
+
+.skill {
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+
+.summary-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.education-container {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.education-tittle {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.education-time {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.education-description {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.summary{
+    margin: 100px 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.CV-btn{
+    color: #FFF;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
 }
