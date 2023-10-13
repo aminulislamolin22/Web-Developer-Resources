@@ -110,6 +110,9 @@ nav li>a {
     width: 580px;
 }
 
+.button{
+    display: flex;
+}
 /*------main section styles------*/
 
 .About {
@@ -174,7 +177,7 @@ nav li>a {
 }
 
 
-.summary-container{
+.summary-container {
     display: flex;
     justify-content: space-around;
 }
@@ -205,13 +208,13 @@ nav li>a {
     font-weight: 400;
 }
 
-.summary{
+.summary {
     margin: 100px 250px;
     align-items: center;
     justify-content: center;
 }
 
-.CV-btn{
+.CV-btn {
     color: #FFF;
     border-radius: 5px;
     background: #FD6E0A;
@@ -219,4 +222,33 @@ nav li>a {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 30px;
+}
+
+/*------ footer styles ------*/
+
+.communication {
+    display: flex;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 150px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input,
+textarea {
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.communication-tittle {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    align-items: center;
+}
+footer>img{
+    display: flex;
+    justify-content: space-between;
 }
